@@ -103,7 +103,7 @@
 
    <tr>
 
-     <td bgcolor="#ffffff">
+     <td background-color="#ffffff">
 
           <em>${livro.autores} </em>
 

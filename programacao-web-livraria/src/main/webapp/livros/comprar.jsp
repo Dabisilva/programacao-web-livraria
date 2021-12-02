@@ -25,7 +25,7 @@
 
     ​
 </script>
-<p>
+<p id="title-component">
   Valor total da compra: ​
 
   <strong
@@ -53,6 +53,7 @@
 
       <td>
         <input
+          id="input"
           type="text"
           name="cardnum"
           id="cardnum"

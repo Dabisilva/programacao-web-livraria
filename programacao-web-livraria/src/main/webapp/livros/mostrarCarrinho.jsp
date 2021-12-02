@@ -51,15 +51,15 @@
 
    </font><br>
 
-<table summary="layout">
+<table id="table" summary="layout">
 
    <tr>
 
-       <th align=left colspan="3">Quantidade</th>
+       <th colspan="3">Quantidade</th>
 
-       <th align=left>Título</th>
+       <th>Título</th>
 
-       <th align=left>Preço</th>
+       <th>Preço</th>
 
    </tr>
 
@@ -69,7 +69,7 @@
 
        <tr>
 
-           <td bgcolor="#ffffff">
+           <td background-color="#ffffff">
 
                <c:url var="url" value="/livros/mostrarCarrinho" >
 
@@ -85,7 +85,7 @@
 
            </td>
 
-           <td bgcolor="#ffffff">
+           <td background-color="#ffffff">
 
                <c:url var="url" value="/livros/mostrarCarrinho" >
 
@@ -101,9 +101,9 @@
 
            </td>
 
-           <td align="left" bgcolor="#ffffff">${itemCompra.quantidade}</td>
+           <td align="left" background-color="#ffffff">${itemCompra.quantidade}</td>
 
-           <td bgcolor="#ffffaa">
+           <td background-color="#ffffaa">
 
                <c:url var="url" value="/livros/detalhesLivro" >
 
@@ -115,13 +115,13 @@
 
            </td>
 
-           <td bgcolor="#ffffaa" align="right">
+           <td background-color="#ffffaa" align="right">
 
                <fmt:formatNumber value="${livro.preco}" type="currency"/>
 
            </td>
 
-           <td bgcolor="#ffffaa">
+           <td background-color="#ffffaa">
 
                <c:url var="url" value="/livros/mostrarCarrinho" >
 
@@ -135,15 +135,15 @@
 
    <tr>
 
-       <td colspan="5" bgcolor="#ffffff"><br></td>
+       <td colspan="5" background-color="#ffffff"><br></td>
 
    </tr>
 
    <tr>
 
-       <td colspan="2" align="right" bgcolor="#ffffff">Subtotal</td>
+       <td colspan="2" align="right" background-color="#ffffff">Subtotal</td>
 
-       <td bgcolor="#ffffaa" align="right">
+       <td background-color="#ffffaa" align="right">
 
            <fmt:formatNumber value="${sessionScope.cart.total}" type="currency"/>
 

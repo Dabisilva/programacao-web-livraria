@@ -55,7 +55,7 @@
 
 <br>
 
-<h3>Livros disponíveis para compra:</h3>
+<h3 id="title-component">Livros disponíveis para compra:</h3>
 
 <div>
 

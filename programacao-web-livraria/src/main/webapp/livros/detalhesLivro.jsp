@@ -5,7 +5,7 @@
 
 </jsp:useBean>
 
-<c:if test="${!empty param.idLivro}">
+<c:if test="${!empty param.idLivro}" id="detalhes-livro">
 
       <c:set var="id" value="${param.idLivro}"/>
 
@@ -13,7 +13,7 @@
 
       <c:set var="livro" value="${livrariaBean.livro}" />
 
-      <h2>${livro.titulo}</h2>
+      <h2 id="title-component">${livro.titulo}</h2>
 
       Autoria de  <em> ${livro.autores}</em>
 
@@ -40,7 +40,7 @@
 
 </c:url>
 
-<a href="${url}">Continuar comprando</a></strong></p>
+<a href="${url}" id="continuar-comprando">Continuar comprando</a></strong></p>
 
 
 

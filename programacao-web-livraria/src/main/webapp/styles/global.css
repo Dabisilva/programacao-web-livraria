@@ -44,7 +44,53 @@
   color: #fff;
 }
 
-#title-catalago {
+#title-catalogo {
+  font-size: 1rem;
+  color: #1da724;
+}
+#title-component {
   font-size: 2rem;
   color: #383636;
+}
+
+#table {
+  display: flex;
+  align-items: flex-start;
+}
+
+#input {
+  border: 1px solid #979494;
+
+  border-radius: 8px;
+  padding-left: 1rem;
+
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+
+  width: 100%;
+}
+
+#input :hover {
+  border-color: #646161;
+}
+
+#input :focus {
+  border: 2px solid #646161;
+}
+
+#detalhes-livro {
+  width: 500px;
+  padding: 1rem;
+}
+
+#continuar-comprando {
+  width: 10rem;
+  height: 3.5rem;
+
+  border-radius: 0.5rem;
+
+  background-color: #469b94;
+
+  color: #000;
 }
