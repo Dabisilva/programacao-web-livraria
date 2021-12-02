@@ -95,7 +95,7 @@ public class Livraria {
 
         livro4.setAutores("Robert C. Martin");
 
-        livro4.setQuantidade(12);
+        livro4.setQuantidade(13);
 
         livro4.setPreco(202.7);
 
