@@ -83,6 +83,97 @@ public class Livraria {
 
         estoqueLivros.add(livro3);
 
+        Livro lirvo4 = new Livro();
+        
+        livro4.setIdLivro("004");
+
+        livro4.setAno(2008);
+
+        livro4.setTitulo("Clean Code: A Handbook of Agile Software Craftsmanship");
+
+        livro4.setDescricao("Um livro de insights de code cleaning e desenvolvimento de software(Idioma: Inglês)");
+
+        livro4.setAutores("Robert C. Martin");
+
+        livro4.setQuantidade(12);
+
+        livro4.setPreco(202.7);
+
+        estoqueLivros.add(livro4);
+
+        Livro lirvo5 = new Livro();
+        
+        livro5.setIdLivro("005");
+
+        livro5.setAno(2009);
+
+        livro5.setTitulo("Introduction to Algorithms");
+
+        livro5.setDescricao("Um livro de estudo rigoroso porém compreensível sobre algorítimos(Idioma: Inglês)");
+
+        livro5.setAutores("Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein");
+
+        livro5.setQuantidade(3);
+
+        livro5.setPreco(540.4);
+
+        estoqueLivros.add(livro5);
+
+        Livro lirvo6 = new Livro();
+        
+        livro6.setIdLivro("006");
+
+        livro6.setAno(1996);
+
+        livro6.setTitulo("Structure and Interpretation of Computer Programs");
+
+        livro6.setDescricao("Um dos melhores livros para se estudar os fundamentos da programação (Idioma: Inglês)");
+
+        livro6.setAutores("Harold Abelson, Gerald Jay Sussman, Julie Sussman");
+
+        livro6.setQuantidade(14);
+
+        livro6.setPreco(469.7);
+
+        estoqueLivros.add(livro6);
+
+        Livro lirvo7 = new Livro();
+        
+        livro7.setIdLivro("007");
+
+        livro7.setAno(2017);
+
+        livro7.setTitulo("Code Complete");
+
+        livro7.setDescricao("Considerado um dos melhores guias de programação, com mais de uma década ajudando programadores (Idioma: Inglês)");
+
+        livro7.setAutores("Steve McConnell");
+
+        livro7.setQuantidade(31);
+
+        livro7.setPreco(379.8);
+
+        estoqueLivros.add(livro7);
+
+        Livro lirvo8 = new Livro();
+        
+        livro8.setIdLivro("008");
+
+        livro8.setAno(2019);
+
+        livro8.setTitulo("The Pragmatic Programmer: Your Journey to Mastery, 20th Anniversary Edition");
+
+        livro8.setDescricao("Um livro que te ajuda a ver a essência do desenvolvimento de software, independente de qualquer linguagem, uma verdadeira obra de arte. (Idioma: Inglês)");
+
+        livro8.setAutores("Andrew Hunt, David Thomas");
+
+        livro8.setQuantidade(2);
+
+        livro8.setPreco(311.2);
+
+        estoqueLivros.add(livro8);
+
+
     }
 
     public List<Livro> getLivros(){
