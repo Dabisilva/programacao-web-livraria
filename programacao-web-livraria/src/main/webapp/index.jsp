@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> <%@ include
 file="/cabecalho.jsp" %>
 
-<div>
+<div id="index">
   <p><b>Livraria Online</b></p>
 
   <c:url var="url" value="/livros/catalogo" />
