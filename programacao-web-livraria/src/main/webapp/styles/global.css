@@ -1,0 +1,50 @@
+#cabecalho {
+  max-width: 1280px;
+  background-color: #fff;
+}
+
+#cabecalho div {
+  margin: 0 auto;
+  height: 30rem;
+}
+
+#cabecalho span {
+  font-size: 2rem;
+}
+
+#cabecalho img {
+  height: 100px;
+}
+
+#rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 1px solid #606060;
+  width: 100vw;
+
+  padding-top: 4rem;
+}
+
+#index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#index a {
+  width: 10rem;
+  height: 3.5rem;
+
+  border-radius: 0.5rem;
+
+  background-color: #20a520;
+
+  color: #fff;
+}
+
+#title-catalago {
+  font-size: 2rem;
+  color: #383636;
+}

@@ -15,7 +15,7 @@
  
       <c:set var="livroAdicionado" value="${livrariaBean.livro}" />
    
-      <h3>
+      <h3 id="title-catalago">
          Você adicionou o livro <em>${livroAdicionado.titulo}</em> ao seu carrinho de compras.
       </h3>
    
@@ -46,9 +46,7 @@
     </c:when>
 
     <c:otherwise>
-
          Seu carrinho de compras está vazio.
-
     </c:otherwise>
 
 </c:choose> 
@@ -103,7 +101,7 @@
 
    <tr>
 
-     <td bgcolor="#ffffff">
+     <td background-color="#ffffff">
 
           <em>${livro.autores} </em>
 
